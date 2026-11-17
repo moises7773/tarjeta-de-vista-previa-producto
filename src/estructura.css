@@ -84,6 +84,7 @@ button{
         height: 100%;
     }
 }
-button:hover{
+button:hover,
+button:focus-visible{
     background-color: var(--green-700);
 }
